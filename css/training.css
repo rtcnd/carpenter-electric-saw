@@ -1,0 +1,78 @@
+/* 
+    Rutul Bharatbhai Tejani
+    C0934641
+*/
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #27267d;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+.alt-row {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+img {
+    max-width: 50px;
+    height: auto;
+}
+
+/* Additional Styles for Training Page */
+.training-schedule h2 {
+    color: #27267d;
+    margin-bottom: 20px;
+}
+
+.additional-info h2 {
+    color: #27267d;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.additional-info p,
+.additional-info ul {
+    margin-bottom: 20px;
+}
+
+.additional-info ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.additional-info ul li {
+    margin-bottom: 10px;
+}
+
+.product-table-data {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
