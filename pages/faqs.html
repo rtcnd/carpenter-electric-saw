@@ -10,7 +10,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>carpenter:FAQS</title>
+    <link rel="stylesheet" href="../css/faq.css">
+    <title>FAQs - Carpenter</title>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <!-- Header -->
     <header id="header">
         <a href="../index.html">
-            <img src="../img/carpenter-logo-design-template.png" alt="carpenter :Designed by Freepik">
+            <img src="../img/carpenter-logo-design-template.png" alt="Carpenter: Designed by Freepik">
         </a>
     </header>
 
@@ -32,11 +33,16 @@
         FAQs → faqs.html
         Contact Us → contact.html  -->
     <nav id="main-nav">
-        <ul>
+        <div class="burger-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./team.html">Our Team</a></li>
-            <li><a href="./specials.html">Specials</a> </li>
+            <li><a href="./specials.html">Specials</a></li>
             <li><a href="./training.html">Training</a></li>
             <li><a href="./media.html">Media</a></li>
             <li><a href="./faqs.html">FAQs</a></li>
@@ -44,19 +50,53 @@
         </ul>
     </nav>
 
-    <!-- Hero Image -->
-    <div id="hero">
-        <img src="../img/hero-image.jpg" alt="left arm extended holding a weight">
-    </div>
-
-    <!-- Use the main area to add the main content to the webpage -->
+    <!-- Main Content -->
     <main id="main-content">
-        <div id="main-container">
+        <div class="faq-container">
+            <h1>Frequently Asked Questions</h1>
+
+            <section class="faq-section">
+                <h2 class="faq-question">What types of products do you offer?</h2>
+                <p class="faq-answer">We offer a wide range of carpentry tools, including saws, hammers, drills, and
+                    other hand tools. We also provide custom-made furniture and woodworking materials.</p>
+            </section>
+
+            <section class="faq-section">
+                <h2 class="faq-question">Do you offer product warranties?</h2>
+                <p class="faq-answer">Yes, all of our products come with a one-year warranty that covers manufacturing
+                    defects. Extended warranties are also available for purchase.</p>
+            </section>
+
+            <section class="faq-section">
+                <h2 class="faq-question">How can I track my order?</h2>
+                <p class="faq-answer">Once your order is shipped, we will send you a tracking number via email. You can
+                    use this number on our website to track the status of your order.</p>
+            </section>
+
+            <section class="faq-section">
+                <h2 class="faq-question">Do you provide international shipping?</h2>
+                <p class="faq-answer">Yes, we offer international shipping to many countries. Shipping rates and
+                    delivery times vary depending on the destination.</p>
+            </section>
+
+            <section class="faq-section">
+                <h2 class="faq-question">Can I return a product?</h2>
+                <p class="faq-answer">Yes, we have a 30-day return policy for most products. Please refer to our return
+                    policy page for more details.</p>
+            </section>
+
+            <section class="faq-section">
+                <h2 class="faq-question">How can I contact customer support?</h2>
+                <p class="faq-answer">You can contact our customer support team via email at support@carpenter.com or by
+                    calling our toll-free number.</p>
+            </section>
+
+            <!-- Add more FAQ sections as needed -->
 
         </div>
     </main>
 
-    <!-- footer -->
+    <!-- Footer -->
     <footer id="footer">
         <p>&copy; Copyright 2024. All Rights Reserved.</p>
         <p>
@@ -68,6 +108,7 @@
             <a href="mailto:info@carpenter.com">info@carpenter.com</a>
         </p>
     </footer>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

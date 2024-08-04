@@ -56,12 +56,14 @@ ul {
     transition: all 0.35s ease-in-out;
     width: 100%;
     z-index: 1;
+    display: none;
 }
 
 .team-area .item:hover .thumb .overlay {
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
+    display: block;
 }
 
 .team-area .item .thumb .overlay p {
@@ -118,7 +120,6 @@ ul {
     position: relative;
     text-align: center;
     z-index: 9;
-    height: 70px;
 }
 
 .team-area .info .message {
@@ -165,4 +166,10 @@ ul {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .team-area .single-item {
+        width: 48%;
+    }
 }

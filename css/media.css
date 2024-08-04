@@ -1,0 +1,69 @@
+/* 
+    Rutul Bharatbhai Tejani
+    C0934641
+    */
+
+#media {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.audio-section,
+.video-section {
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.audio-section h2,
+.video-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+audio,
+video {
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .media-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .audio-section,
+    .video-section {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .audio-section h2,
+    .video-section h2 {
+        font-size: 1.2rem;
+    }
+}
